@@ -3,19 +3,18 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-
+  color: white;
   background: rgb(0, 0, 0);
 
   header {
-    
+
     height: 10%;
-   // background: rgb(255, 0, 0);
     width: 100%;
 
     section {
 
 
-      img {
+      >img {
         height: 60px;
         position: absolute;
         margin-left: 300px;
@@ -25,40 +24,99 @@
   }
 
 
-  main{
+  main {
     display: flex;
-    
+
+    .Left {
+      display: flex;
+      flex-direction: column;
+
+      section {
+        margin-top: auto;
+
+        img {
+          align-items: flex-end;
+          display: flex;
+          height: 30px;
+          margin-left: 50px;
+          margin-right: 50px;
+          margin-top: 30px;
+
+        }
+
+
+        div {
+          width: 5px;
+          border-radius: 30px;
+          height: 100px;
+          background: white;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 30px;
+        }
+
+      }
+
+
+    }
 
     .Center {
-    height: 80vh;
-    width: 80vw;
-    border-radius: 20px;
-    background: url('../../assets/images/mark-farias-V_MdomV6Kbg-unsplash.jpg') no-repeat center center;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
+      height: 80vh;
+      width: 80vw;
+      border-radius: 20px;
+      background: url('../../assets/images/mark-farias-V_MdomV6Kbg-unsplash.jpg') no-repeat center center;
+      background-size: cover;
+
+      display: flex;
+
+
+      h1 {
+        font-family: 'Allura', sans-serif;
+        font-size: 150px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+      }
+
+      h1:hover {
+        mix-blend-mode: none;
+      }
+
+
+    }
+  }
+
+  footer {
     display: flex;
-    
+    height: 10vh;
+    color: red;
+    font-family: 'Shadows Into Light', sans-serif;
+    justify-content: space-around;
 
     h1 {
-      font-family: 'Allura', sans-serif;
-      font-size: 150px;
-      color: white;
+      
+      height: flex;
+      width: 150px;
+      padding: 20px;
+      text-align: center;
+      border: 30px;
       cursor: pointer;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: auto;
-      margin-right: auto;
-
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: 0.5s;
+    }
+    h1:hover{
+      background: rgba(63, 63, 63, 0.534);
     }
 
-    h1:hover {
-      mix-blend-mode: none;
-    }
   }
 
-  
 
-  }
 }
