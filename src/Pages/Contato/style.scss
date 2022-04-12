@@ -1,0 +1,134 @@
+.todoCont{
+  background: url('../../assets/images/parede-de-tijolo-preto-texturizado-fundo_53876-63572.webp') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  color:rgb(255, 255, 255);
+
+  header{
+    
+    height: 20vh;
+    background: rgba(0, 0, 0, 0.26);
+    border-bottom: 1px solid rgb(165, 165, 165);
+
+    h2{
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      margin-left: 30px;
+      margin-left: 10%;
+
+      h1{
+        font-family: 'Allura', sans-serif;
+        margin-left: 10px;
+        font-size: 80px
+      }
+      
+    }
+    
+  }
+
+  main{
+   height: 150vh;
+   display: flex;
+   
+  
+
+   .leftCont{
+     height: 150vh;
+     flex: 1;
+     width: 100vh;
+     display: flex;
+     font-family: 'Allura', sans-serif;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+    
+
+     img{
+       height: 400px;
+       border-radius: 30px;
+       border: 1px solid white;
+     }
+   }
+
+   section{
+    height: 150vh;
+    width: 50vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    justify-content: center;
+     align-items: center;
+
+   
+    
+    
+
+    article{
+      height: 300px;
+      width: 250px;
+      padding: 30px;
+      margin: 10px;
+      background:rgba(255, 255, 255, 0.185);
+      backdrop-filter: blur( 5px );
+      -webkit-backdrop-filter: blur( 5px );
+      border-radius: 0px 30px 0px 30px;
+      margin: 25px;
+      border: 1px solid white;
+
+      img{
+        height: 40px;
+        
+      }
+
+      h1{
+        font-family: 'Allura', sans-serif;
+        font-size: 40px;
+      }
+      p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-Top: 20px;
+        margin-Bottom: 20px;
+        font-size: 20px;
+      }
+      a{
+        position: relative;
+        text-decoration: none;
+        color: rgb(209, 209, 209);
+        letter-spacing: 0.5px;
+        font-size: 20px;
+
+      }
+      a:after{
+        content: '';
+        position: absolute;
+        background: rgba(41, 41, 41, 0.774);
+        height: 2px;
+        width: 0;
+        left: 0;
+        bottom:-5px;
+        transition: 0.3s;
+      }
+      a:hover:after{
+        width: 100%;
+      }
+      
+    }
+   }
+    
+
+  }
+
+  footer{
+    display: flex;
+   height: 10vh;
+   background: rgba(0, 0, 0, 0.26);
+   border-top: 1px solid rgb(165, 165, 165);
+   font-family: 'Allura', sans-serif;
+
+   h2{
+     margin: auto;
+   }
+  }
+}

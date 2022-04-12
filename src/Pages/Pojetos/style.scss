@@ -1,0 +1,38 @@
+.tudoProj{
+  background: url('../../assets/images/paul-volkmer-qVotvbsuM_c-unsplash.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+
+  section{
+    height: 80%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    article{
+     height: 350px;
+     width: 350px;
+     background: rgba(54, 54, 54, 0.274);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     border-radius: 10px;
+
+     h1{
+      font-family: 'Shadows Into Light', sans-serif;
+      font-size: 40px;
+      
+     }
+     
+    }
+  }
+}

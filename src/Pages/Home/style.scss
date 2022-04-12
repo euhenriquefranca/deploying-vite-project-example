@@ -7,9 +7,11 @@
   background: rgb(0, 0, 0);
 
   header {
-
+    font-size:px;
     height: 10%;
     width: 100%;
+    display: flex;
+    font-family: 'Shadows Into Light', sans-serif;
 
     section {
 
@@ -18,8 +20,34 @@
         height: 60px;
         position: absolute;
         margin-left: 300px;
+        margin-top: -25px;
         cursor: pointer;
       }
+    }
+    img{
+      height: 50px;
+      padding: 15px;
+    }
+
+    a{
+      width: 150px;
+    }
+
+    h1{
+      font-size: 20px;
+      margin-left: 70vw;
+      height: 40px;
+      display: flex;
+      margin-top: auto;
+      margin-bottom: auto;
+      padding: 11px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.5s;
+      color: white;
+    }
+    h1:hover{
+      background: rgba(63, 63, 63, 0.534);
     }
   }
 
@@ -37,37 +65,35 @@
         img {
           align-items: flex-end;
           display: flex;
-          height: 30px;
+          height: 20px;
           margin-left: 50px;
           margin-right: 50px;
-          margin-top: 30px;
+          margin-top: 20px;
 
         }
 
 
         div {
-          width: 5px;
+          width: 3px;
           border-radius: 30px;
           height: 100px;
           background: white;
           margin-left: auto;
           margin-right: auto;
-          margin-top: 30px;
+          margin-top: 20px;
         }
 
       }
-
-
     }
 
     .Center {
       height: 80vh;
-      width: 80vw;
+      width: 84%;
       border-radius: 20px;
       background: url('../../assets/images/mark-farias-V_MdomV6Kbg-unsplash.jpg') no-repeat center center;
       background-size: cover;
-
       display: flex;
+    
 
 
       h1 {
@@ -79,8 +105,7 @@
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-
-
+        
 
       }
 
@@ -88,6 +113,34 @@
         mix-blend-mode: none;
       }
 
+    }
+    .right{
+      writing-mode:vertical-lr;
+      display: flex;
+      
+      justify-content: space-between;
+      font-family: 'Shadows Into Light', sans-serif;
+      width: 100%;
+      
+
+      h1 {
+        font-size: 20px;
+        height: 150px;
+        width: flex;
+        padding: 20px;
+        text-align: center;
+        border: 30px;
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        transition: 0.5s;
+        
+        
+      }
+      h1:hover{
+        background: rgba(63, 63, 63, 0.534);
+      }
 
     }
   }
@@ -100,10 +153,10 @@
     justify-content: space-around;
 
     h1 {
-      
+      font-size: 20px;
       height: flex;
       width: 150px;
-      padding: 20px;
+      padding: 5px;
       text-align: center;
       border: 30px;
       cursor: pointer;

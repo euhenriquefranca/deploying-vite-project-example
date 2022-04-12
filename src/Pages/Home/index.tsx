@@ -8,6 +8,9 @@ import gitHub from '../../assets/images/github.png';
 
 import Instagram from '../../assets/images/instagram-logo.png';
 import Linkedin from '../../assets/images/linkedin.png';
+import Watsapp from '../../assets/images/whatsapp-logo.png';
+
+import logo from '../../assets/images/Logo.png'
 
 
 export function Home() {
@@ -25,10 +28,19 @@ export function Home() {
 
      <header>
        <section>
-        <audio src='../../Sound.mp3' ></audio>
-          <img onClick={onClickGIF} src={isStaticGIF ? StaticGif : Gif} alt="Descrição da imagem" />
         
+          <img onClick={onClickGIF} src={isStaticGIF ? StaticGif : Gif} alt="Descrição da imagem" />
+          
+          
        </section>
+       <Link to="/">
+         <img src={logo} alt="" />
+       </Link>
+       
+       <Link to="/Home/Contato">
+         <h1>CONTATO</h1>
+       </Link>
+       
      </header>
 
      
@@ -36,13 +48,16 @@ export function Home() {
         <article className='Left'>
           <section>
             <a href="https://github.com/IsaacMoretao" target={'_blank'} >
-            <img src={gitHub}  alt="" />
+            <img src={gitHub}  alt="GitHub" />
           </a>
           <a href="">
-            <img src={Instagram} alt="" />
+            <img src={Instagram} alt="Instagram" />
           </a>
           <a href="https://www.linkedin.com/in/isaac-hana-moret%C3%A3o-1a32031a2/" target={'_blank'}>
-            <img src={Linkedin} alt="" />
+            <img src={Linkedin} alt="Linkedin" />
+          </a>
+          <a href="https://web.whatsapp.com/send?phone=+5511999899429" target="_blank">
+            <img src={Watsapp} alt="Watsapp" />
           </a>
           
           <div></div>
@@ -50,11 +65,19 @@ export function Home() {
           
         </article>
           <div className='Center'>
+            
             <h1>Isaac Moretão</h1>
           </div>
         <article className='Left'>
-          <section>
-            Projects
+
+
+          <section className='right'>
+            <Link to="/Home/Projetos">
+              <h1 style={{
+                marginBottom: '100%',
+                marginTop: '-130%'
+              }}>PROJETOS</h1> 
+            </Link>
           </section>
 
         </article>
@@ -63,10 +86,10 @@ export function Home() {
      <footer>
 
        <Link to="/Home/Sobre">
-        <h1>Sobre</h1>
+        <h1>SOBRE</h1>
        </Link>
        <Link to="/Home/Tecnologias" >
-        <h1>Tecnologias</h1>
+        <h1>TECNOLOGIAS</h1>
        </Link>
 
        

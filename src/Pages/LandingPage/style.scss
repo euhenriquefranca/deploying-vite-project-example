@@ -1,14 +1,17 @@
  .Landing-Page {
-  margin: 0%;
-  padding: 0%;
+  
   background: url('../../assets/images/pexels-nothing-ahead-6800721.jpg') no-repeat center center;
   background-size: cover;
   height: 100vh;
   width: 100vw;
   display: flex;
+  justify-content: center;
+  align-items: center;
   
   div{
-    margin: auto;
+    display: flex;
+    
+    
   }
 
   button{
@@ -18,6 +21,7 @@
     background: rgba(255, 255, 255, 0.068);
     backdrop-filter: blur( 5px );
     -webkit-backdrop-filter: blur( 10px ) ;
+    position: static;
     cursor: pointer;
     border: none;
 
