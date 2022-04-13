@@ -3,7 +3,6 @@ import './style.scss'
 
 import { Link } from 'react-router-dom';
 import voltar from '../../assets/images/voltar.png';
-import Section from '../../Components/Tecnologia/Section' ;
 
 import Html from '../../assets/images/Tecnologias/html-5.png';
 import css from '../../assets/images/Tecnologias/css-3.png';

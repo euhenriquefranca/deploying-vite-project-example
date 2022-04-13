@@ -33,9 +33,7 @@ export function Home() {
           
           
        </section>
-       <Link to="/">
-         <img src={logo} alt="" />
-       </Link>
+  
        
        <Link to="/Home/Contato">
          <h1>CONTATO</h1>
@@ -82,7 +80,7 @@ export function Home() {
 
         </article>
      </main>
-       
+       <a/>
      <footer>
 
        <Link to="/Home/Sobre">

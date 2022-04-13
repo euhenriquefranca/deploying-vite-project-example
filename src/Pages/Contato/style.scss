@@ -131,4 +131,20 @@
      margin: auto;
    }
   }
+  @media screen and (max-width:950px){
+    img{
+      display: none;
+
+    }
+    button{
+      display:none;
+    }
+    .leftCont{
+      flex:0;
+
+      h2{
+        display: none;
+      }
+    }
+	}
 }

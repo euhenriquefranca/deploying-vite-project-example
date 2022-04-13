@@ -7,11 +7,11 @@
   background: rgb(0, 0, 0);
 
   header {
-    font-size:px;
     height: 10%;
     width: 100%;
     display: flex;
     font-family: 'Shadows Into Light', sans-serif;
+    justify-content: space-between;
 
     section {
 
@@ -19,23 +19,19 @@
       >img {
         height: 60px;
         position: absolute;
-        margin-left: 300px;
+        margin-left: 20%;
         margin-top: -25px;
         cursor: pointer;
+        margin-Top: auto;
+        margin-Bottom: auto;
+       
       }
     }
-    img{
-      height: 50px;
-      padding: 15px;
-    }
 
-    a{
-      width: 150px;
-    }
+  
 
     h1{
       font-size: 20px;
-      margin-left: 70vw;
       height: 40px;
       display: flex;
       margin-top: auto;
@@ -45,6 +41,7 @@
       cursor: pointer;
       transition: 0.5s;
       color: white;
+      margin-right: 20vw;
     }
     h1:hover{
       background: rgba(63, 63, 63, 0.534);
@@ -94,7 +91,12 @@
       background-size: cover;
       display: flex;
     
-
+      @media screen and (max-width:800px){
+        
+          background: url('../../assets/images/Background.jpg') no-repeat center center;
+          background-size: cover;
+        
+      }
 
       h1 {
         font-family: 'Allura', sans-serif;
@@ -111,6 +113,17 @@
 
       h1:hover {
         mix-blend-mode: none;
+      }
+
+      @media screen and (max-width:1000px){
+        h1{
+          font-size: 100px;
+        }
+      }
+      @media screen and (max-width:800px){
+        h1{
+          font-size: 50px;
+        }
       }
 
     }
@@ -142,6 +155,8 @@
         background: rgba(63, 63, 63, 0.534);
       }
 
+      
+
     }
   }
 
@@ -164,12 +179,15 @@
       text-decoration: none;
       border-radius: 10px;
       transition: 0.5s;
+      
     }
     h1:hover{
       background: rgba(63, 63, 63, 0.534);
     }
 
   }
+
+
 
 
 }

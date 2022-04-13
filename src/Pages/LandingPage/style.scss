@@ -15,8 +15,8 @@
   }
 
   button{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 500px;
     background: rgba(255, 255, 255, 0.068);
     backdrop-filter: blur( 5px );
@@ -27,12 +27,12 @@
 
     
     img{
-      height: 350px;
+      height: 250px;
       padding: 30px;
       mix-blend-mode: overlay;
     }
   }
   button:hover {
-      backdrop-filter: blur( 20px );
+      backdrop-filter: blur( 5px );
      }
 }
