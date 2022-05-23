@@ -84,10 +84,10 @@ export function Home() {
      <footer>
 
        <Link to="/Home/Sobre">
-        <h1>SOBRE</h1>
+        <h1><p>SOBRE</p></h1>
        </Link>
        <Link to="/Home/Tecnologias" >
-        <h1>TECNOLOGIAS</h1>
+        <h1> TECNOLOGIAS</h1>
        </Link>
 
        

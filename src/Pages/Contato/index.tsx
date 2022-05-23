@@ -30,7 +30,7 @@ export function Contato() {
     <main>
       <div className='leftCont'>
         <img src='https://img.freepik.com/free-photo/team-unity-friends-meeting-partnership-concept_53876-23043.jpg?w=740&t=st=1649776329~exp=1649776929~hmac=053979b60c43145629b8366e5d6b75ca10921f0b82421e227a1c5fcb6cf93b1c'alt="" />
-        <h2>” ferro afia ferro; assim um homem afia o rosto de seu amigo.” </h2> 
+        <h2>”O ferro é afiado com ferro, e o ser humano aprende com outro ser humano.” </h2> 
       </div>
       <section>
         <article>

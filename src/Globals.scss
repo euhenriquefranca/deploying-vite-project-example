@@ -6,3 +6,21 @@ body{
   margin: 0%;
   padding: 0px;
 }
+Body::-webkit-scrollbar {
+  background-color: rgb(0, 0, 0);
+  height: 20px;
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(97, 97, 97, 0.377);
+  border-radius: 500px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.301);
+
+}

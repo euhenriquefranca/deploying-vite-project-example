@@ -24,26 +24,38 @@
         cursor: pointer;
         margin-Top: auto;
         margin-Bottom: auto;
-       
+
       }
     }
 
-  
 
-    h1{
-      font-size: 20px;
-      height: 40px;
+    a{
       display: flex;
+      height: 42px;
+      width: 152px;
       margin-top: auto;
       margin-bottom: auto;
-      padding: 11px;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: 0.5s;
-      color: white;
-      margin-right: 20vw;
+      margin-right: 20vh;
     }
-    h1:hover{
+    h1 {
+      display: flex;
+      flex-direction: column;
+     font-size: 20px;
+     height: 42px;
+     width: 152px;
+      padding: 5px;
+      text-align: center;
+      
+      cursor: pointer;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: 0.5s;
+      margin-top: auto;
+      
+    }
+
+    h1:hover {
       background: rgba(63, 63, 63, 0.534);
     }
   }
@@ -69,7 +81,6 @@
 
         }
 
-
         div {
           width: 3px;
           border-radius: 30px;
@@ -90,12 +101,12 @@
       background: url('../../assets/images/mark-farias-V_MdomV6Kbg-unsplash.jpg') no-repeat center center;
       background-size: cover;
       display: flex;
-    
-      @media screen and (max-width:800px){
-        
-          background: url('../../assets/images/Background.jpg') no-repeat center center;
-          background-size: cover;
-        
+
+      @media screen and (max-width:800px) {
+
+        background: url('../../assets/images/Background.jpg') no-repeat center center;
+        background-size: cover;
+
       }
 
       h1 {
@@ -107,7 +118,6 @@
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-        
 
       }
 
@@ -115,49 +125,52 @@
         mix-blend-mode: none;
       }
 
-      @media screen and (max-width:1000px){
-        h1{
+      @media screen and (max-width:1000px) {
+        h1 {
           font-size: 100px;
         }
       }
-      @media screen and (max-width:800px){
-        h1{
+
+      @media screen and (max-width:800px) {
+        h1 {
           font-size: 50px;
         }
       }
 
     }
-    .right{
-      writing-mode:vertical-lr;
+
+  }
+
+  .right {
+    writing-mode: vertical-lr;
+    display: flex;
+
+    font-family: 'Shadows Into Light', sans-serif;
+    width: 100%;
+
+
+    h1 {
+      font-size: 20px;
+      height: 150px;
+      width: 40px;
+
       display: flex;
-      
-      justify-content: space-between;
-      font-family: 'Shadows Into Light', sans-serif;
-      width: 100%;
-      
-
-      h1 {
-        font-size: 20px;
-        height: 150px;
-        width: flex;
-        padding: 20px;
-        text-align: center;
-        border: 30px;
-        cursor: pointer;
-        color: white;
-        text-decoration: none;
-        border-radius: 10px;
-        transition: 0.5s;
-        
-        
-      }
-      h1:hover{
-        background: rgba(63, 63, 63, 0.534);
-      }
-
-      
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: 0.5s;
 
     }
+
+    h1:hover {
+      background: rgba(63, 63, 63, 0.534);
+    }
+
+
+
   }
 
   footer {
@@ -170,6 +183,7 @@
     h1 {
       font-size: 20px;
       height: flex;
+      height: 40px;
       width: 150px;
       padding: 5px;
       text-align: center;
@@ -179,15 +193,13 @@
       text-decoration: none;
       border-radius: 10px;
       transition: 0.5s;
-      
+
     }
-    h1:hover{
+
+    h1:hover {
       background: rgba(63, 63, 63, 0.534);
     }
 
   }
-
-
-
 
 }

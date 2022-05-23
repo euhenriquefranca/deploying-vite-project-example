@@ -19,44 +19,51 @@ export function Projetos() {
 
     <div className='tudoProj'>
       <section>
-        <a href="https://github.com/IsaacMoretao/Calc.Port">
+        <a href="https://github.com/IsaacMoretao/Calc.Port" target="_blank">
           <article>
             <img src="" alt="" />
             <h1>Calculadora-JS</h1>
           </article>
         </a>
 
-        <a href="https://github.com/IsaacMoretao/Bateria.Port">
+        <a href="https://github.com/IsaacMoretao/Bateria.Port" target="_blank">
           <article>
             <img src="" alt="" />
             <h1>Bateria-JS</h1>
           </article>
         </a>
-        <a href="https://github.com/IsaacMoretao/Portf-lio">
+        <a href="https://github.com/IsaacMoretao/Portf-lio" target="_blank">
           <article>
             <img src="" alt="" />
             <h1>1° portifólio</h1>
           </article>
         </a>
         
-        <a href="https://github.com/IsaacMoretao/Calculadora/tree/main/calculadora">
+        <a href="https://github.com/IsaacMoretao/Calculadora/tree/main/calculadora" target="_blank">
           <article>
             <img src="" alt="" />
             <h1>Calculadora-react</h1>
           </article>
         </a>
         
-        <a href="https://github.com/IsaacMoretao/Hooks/tree/main/hooks">
+        <a href="https://github.com/IsaacMoretao/Hooks/tree/main/hooks"  target="_blank">
           <article>
             <img src="" alt="" />
             <h1>Rooks</h1>
           </article>
         </a>
 
-        <a href="https://github.com/IsaacMoretao/letmeask">
+        <a href="https://github.com/IsaacMoretao/letmeask" target="_blank">
           <article>
             <img src="" alt="" />
             <h1>LetMeAsk</h1>
+          </article>
+        </a>
+
+        <a href="https://github.com/caiocesaar/tintasbrazilian-site" target="_blank">
+          <article>
+            <img src="" alt="" />
+            <h1>Brazilian</h1>
           </article>
         </a>
         
