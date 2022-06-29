@@ -1,8 +1,4 @@
-import './style.scss'
-import tel from '../../assets/images/telephone.png';
-import Email from '../../assets/images/correspondencia.png';
-import galera from '../../assets/images/Solidarity-pana.png';
-import voltar from '../../assets/images/voltar - Copia.png'
+import './Stylle.scss';
 import { Link } from 'react-router-dom';
 
 
@@ -16,7 +12,7 @@ export function Contato() {
     <header>
       <Link to="/Home">
         <button>
-          <img src={voltar} />
+          <img src="" />
         </button>
       </Link>
       
@@ -34,14 +30,14 @@ export function Contato() {
       </div>
       <section>
         <article>
-       <img src={tel} alt="" />
+       <img src="" alt="" />
        <h1>Telefone</h1>
        <p> Estarei disponivel em horário comercial, de segunda a sexta</p>
        <a href="https://web.whatsapp.com/send?phone=+5511999899429" target="_blank"><b>(11) 99989-9429</b></a>
       </article>
 
       <article>
-       <img src={Email} alt="" />
+       <img src="" alt="" />
        <h1>G-mail</h1>
        <p> Entrarei em contato o mais breve possível durante o horario comercial</p>
        <a href="mailto:isaachanam@gmail.com? subject=subject text"><b>isaachanam@gmail.com</b></a>

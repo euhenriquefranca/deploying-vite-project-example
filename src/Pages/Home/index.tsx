@@ -1,99 +1,72 @@
-import React from 'react';
-import './style.scss';
-import { Link } from 'react-router-dom'
-
-import Gif from '../../assets/video/9d8830be7cbdcafbcba2f241d08c12f0ef45107c_00 (1).gif';
-import StaticGif from '../../assets/images/Captura_de_tela_2022-04-06_114710-removebg-preview.png';
-import gitHub from '../../assets/images/github.png';
-
-import Instagram from '../../assets/images/instagram-logo.png';
-import Linkedin from '../../assets/images/linkedin.png';
-import Watsapp from '../../assets/images/whatsapp-logo.png';
-
-import logo from '../../assets/images/Logo.png'
+import { BotaoLink } from '../../Components/Link/Index';
+import Logo from '../../Assets/logo.png';
+import './Stylles.scss';
+import { Link } from 'react-router-dom';
+import { DiscordLogo, GithubLogo, InstagramLogo, LinkedinLogo, WhatsappLogo } from 'phosphor-react'
 
 
-export function Home() {
-
-  
-//const [isPlay, setIsPlay] = React.useState(false);
-  const [isStaticGIF, setIsStaticGIF] = React.useState(false);
-  
-  const onClickGIF = () => setIsStaticGIF(!isStaticGIF);
-
-
+export function Music() {
   return(
-   <div className='Tudo'>
+    <div>
 
-
-     <header>
-       <section>
-        
-          <img onClick={onClickGIF} src={isStaticGIF ? StaticGif : Gif} alt="Descrição da imagem" />
-          
-          
-       </section>
-  
-       
-       <Link to="/Home/Contato">
-         <h1>CONTATO</h1>
-       </Link>
-       
-     </header>
-
-     
-     <main>
-        <article className='Left'>
-          <section>
-            <a href="https://github.com/IsaacMoretao" target={'_blank'} >
-            <img src={gitHub}  alt="GitHub" />
-          </a>
-          <a href="">
-            <img src={Instagram} alt="Instagram" />
-          </a>
-          <a href="https://www.linkedin.com/in/isaac-hana-moret%C3%A3o-1a32031a2/" target={'_blank'}>
-            <img src={Linkedin} alt="Linkedin" />
-          </a>
-          <a href="https://web.whatsapp.com/send?phone=+5511999899429" target="_blank">
-            <img src={Watsapp} alt="Watsapp" />
-          </a>
-          
-          <div></div>
-          </section>
-          
-        </article>
-          <div className='Center'>
-            
-            <h1>Isaac Moretão</h1>
-          </div>
-        <article className='Left'>
-
-
-          <section className='right'>
-            <Link to="/Home/Projetos">
-              <h1 style={{
-                marginBottom: '100%',
-                marginTop: '-130%'
-              }}>PROJETOS</h1> 
-            </Link>
-          </section>
-
-        </article>
-     </main>
-       <a/>
-     <footer>
-
-       <Link to="/Home/Sobre">
-        <h1><p>SOBRE</p></h1>
-       </Link>
-       <Link to="/Home/Tecnologias" >
-        <h1> TECNOLOGIAS</h1>
-       </Link>
-
-       
-     </footer>
-     
-   </div>
+    </div>
   )
 }
-export default Home;
+export function Home() {
+
+  return(
+    <body>
+      <div className="Home-Body">
+        
+        <header className="H-red">
+          <Link to={'/'} className='div-Logo'>
+            <img src={Logo} alt="" />
+          </Link>
+          <BotaoLink text={'CONTATO'} posição={'horisontal-tb'} height={'48px'} width={'150px'} />
+
+        </header>
+
+        <main >
+          <nav className="LaftNav">
+            <BotaoLink text={'TECNOLOGIAS'} posição={'vertical-rl'} height={'150px'} width={'48px'} />
+            <div className='Contato'>
+
+              <a href="#">
+                <DiscordLogo size={32} className='Discord'/>
+              </a>
+
+              <a href="#">
+                <LinkedinLogo size={32} className='Linkedin'/>
+              </a>
+
+              <a href="#">
+                <InstagramLogo size={32} className='Instagram'/>
+              </a>
+
+              <a href="#">
+                <GithubLogo size={32} className='Github'/>
+              </a>
+              
+              <div/>
+            </div>
+          </nav>
+          <figure></figure>
+          <nav className="RightNav">
+          <BotaoLink text={'TECNOLOGIAS'} posição={'vertical-lr'} height={'150px'} width={'48px'} />
+          </nav>
+        </main>
+
+        <footer className="Footer">
+          <a>
+            <BotaoLink text={'SOBRE'} posição={'horisontal-tb'} height={'48px'} width={'150px'} />
+          </a>
+          
+          <Link to={'Project'}>
+            <BotaoLink text={'PROJETOS'} posição={'horisontal-tb'} height={'48px'} width={'150px'} />
+          </Link>
+          
+        </footer>
+      </div>
+    </body>
+  )
+}
