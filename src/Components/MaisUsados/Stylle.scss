@@ -1,0 +1,14 @@
+.div-use{
+  max-height: 250px;
+  width: 200px;
+  padding: 15px;
+  background-image: linear-gradient(150deg, #520000, #20202000);
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p{
+    color: rgb(168, 168, 168);
+    font-size: small;
+  }
+}

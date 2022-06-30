@@ -55,7 +55,9 @@ export function Home() {
           </nav>
           <figure></figure>
           <nav className="RightNav">
-          <BotaoLink text={'TECNOLOGIAS'} posição={'vertical-lr'} height={'150px'} width={'48px'} />
+            <Link to='/Home/Tecnologias'>
+              <BotaoLink text={'TECNOLOGIAS'} posição={'vertical-lr'} height={'150px'} width={'48px'} />
+            </Link> 
           </nav>
         </main>
 
