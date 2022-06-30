@@ -22,7 +22,10 @@ export function Home() {
           <Link to={'/'} className='div-Logo'>
             <img src={Logo} alt="" />
           </Link>
-          <BotaoLink text={'CONTATO'} posição={'horisontal-tb'} height={'48px'} width={'150px'} />
+          <Link to='/Home/Contato'>
+            <BotaoLink text={'CONTATO'} posição={'horisontal-tb'} height={'48px'} width={'150px'} />
+          </Link>
+          
 
         </header>
 

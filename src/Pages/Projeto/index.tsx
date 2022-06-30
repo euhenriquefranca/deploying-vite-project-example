@@ -29,12 +29,14 @@ export function Project() {
     <div className="Project">
 
       <header className='headerProjects'>
-        <Link to='/home' >
+        <Link to='/Home' >
          <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
         </Link>
         
+        <Link to='Home/contato'>
+          <img src={Isaac} alt="Logo-Isaac" />
+        </Link>
         
-        <img src={Isaac} alt="Logo-Isaac" />
         <Link to='/'>
           <img src={logo} alt="" />
         </Link>
