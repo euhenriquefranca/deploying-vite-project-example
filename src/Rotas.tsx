@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import { Project } from "./Pages/Projeto/index";
 import Contato from "./Pages/Contato/index";
 import { Tecnologias } from "./Pages/tecnologias/index";
+import { Sobre } from "./Pages/Sobre";
 
  function Rotas() {
 
@@ -15,6 +16,7 @@ import { Tecnologias } from "./Pages/tecnologias/index";
       <Route path="/Home/Project" element={<Project/>}/>
       <Route path="/Home/Contato" element={<Contato/>}/>
       <Route path="/Home/Tecnologias" element={<Tecnologias/>} />
+      <Route path="/Home/Sobre" element={<Sobre/>} />
     </Routes>
   )
 }

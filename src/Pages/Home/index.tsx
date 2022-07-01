@@ -31,7 +31,6 @@ export function Home() {
 
         <main >
           <nav className="LaftNav">
-            <BotaoLink text={'TECNOLOGIAS'} posição={'vertical-rl'} height={'150px'} width={'48px'} />
             <div className='Contato'>
 
               <a href="#">
@@ -62,9 +61,9 @@ export function Home() {
         </main>
 
         <footer className="Footer">
-          <a>
+          <Link to={'/Home/Sobre'}>
             <BotaoLink text={'SOBRE'} posição={'horisontal-tb'} height={'48px'} width={'150px'} />
-          </a>
+          </Link>
           
           <Link to={'Project'}>
             <BotaoLink text={'PROJETOS'} posição={'horisontal-tb'} height={'48px'} width={'150px'} />

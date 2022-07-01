@@ -61,6 +61,7 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: auto;
   flex-direction: column;
   gap: 5px;
 
@@ -100,7 +101,7 @@ main{
   div{
     width: 4px;
     border-radius: 10px;
-    height: 100px;
+    height: 150px;
     animation: LinesRedes 0.4s;
     background: white;
   }
@@ -110,7 +111,7 @@ main{
       height: 0px;
     }
     to{
-      height: 100px;
+      height: 150px;
     }
   }
   @keyframes Redes {

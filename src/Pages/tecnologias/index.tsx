@@ -23,7 +23,7 @@ export function Tecnologias() {
          <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
         </Link>
         
-        <Link to='Home/contato'>
+        <Link to='/Home/contato'>
           <img src={Isaac} alt="Logo-Isaac" />
         </Link>
         
