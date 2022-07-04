@@ -1,6 +1,9 @@
 import Rotas from './Rotas'
 import './globals.scss'
 import { BrowserRouter } from 'react-router-dom'
+function Music(){
+  
+}
 function App() {
 
   return (

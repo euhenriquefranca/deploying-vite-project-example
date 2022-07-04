@@ -34,8 +34,9 @@ main{
     display: flex;
     width: 88%;
     background: url('../../assets/man-using-digital-tablet-psd-mockup-smart-technology.jpg') no-repeat  center  center ;
-    background-size: 100%;
+    background-size: cover;
     border-radius: 10px;
+    
   }
   .LaftNav{
     display: flex;
@@ -130,6 +131,42 @@ main{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-left: 100px;
-  padding-right: 00px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+@media (max-width: 550px){
+
+  .H-red{
+    .div-Logo{
+      img{
+      height: 40px;
+      width: 40px;
+    }
+    }
+  }
+
+  .Home-Body *{
+    font-size: 18px;
+  }
+
+  .Footer{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .Contato{
+    align-items: flex-start;
+    margin-top: 50vh;
+    gap: 30px;
+    transform: translateY(-30vh);
+
+    div{
+      display: none;
+      
+    }
+  }
+  .Home-Body{
+    padding: 0px;
+  }
+
 }

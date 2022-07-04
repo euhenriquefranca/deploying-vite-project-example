@@ -21,9 +21,7 @@
         margin-left: 10px;
         font-size: 80px
       }
-
     }
-
   }
 }
 
@@ -31,14 +29,11 @@
   height: 150vh;
   display: flex;
 
-
-
   .leftCont {
     height: 150vh;
     flex: 2;
     max-width: 100vh;
     display: flex;
-
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -153,7 +148,6 @@
         width: 100%;
 
       }
-
     }
   }
 
@@ -169,5 +163,17 @@
 
   span {
     margin: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .header-contato {
+    strong {
+    
+      span {
+        
+        font-size: 40px
+      }
+    }
   }
 }

@@ -1,6 +1,7 @@
 .BodyTec{
   background-image: linear-gradient(150deg, #000000, #202020, #000000);
-  min-height: 190vh;
+  min-height: 200vh;
+ 
   color: #ffffff;
   
   strong{
@@ -19,15 +20,16 @@
   margin-left: 10%;
   border-bottom: 2px solid rgb(138, 0, 0);
   padding-bottom: 50px;
+  
 
   div{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     margin-top: 50px;
+    justify-content: space-evenly;
     margin-right: 10%;
-    align-items: flex-end;
     height: 150px;
+    
+    overflow-y: hidden;
 
     img{
       height: 80px;
@@ -37,10 +39,11 @@
     section{
       min-height: 80px;
       width: 80px;
+      margin: 25px;
       display: flex;
-      
+      justify-content: space-evenly;
       flex-direction: column;
-      align-items: flex-end;
+      align-items: center;
 
       p{
         text-align: center;
@@ -63,6 +66,8 @@
 
   div{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 50px;
     height: 400px;
     margin-top: 30px;
@@ -99,6 +104,29 @@
   }
   100%{
     margin-bottom: 0px;
+  }
+}
+@media (max-width: 999px) {
+  .Tecnologias{
+    margin-left: 0%;
+    div{
+      overflow-x: scroll;
+      margin-right: 0%;
+    }
+  }
+}
+@media (max-width: 699px) {
+  .BodyTec{
+    height: 280vh;
+  }
+}
+@media (max-width: 599px) {
+  .BodyTec{
+    height: 380vh;
+
+    strong{
+      font-size: 30px;
+    }
   }
 }
 

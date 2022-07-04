@@ -8,6 +8,8 @@ import js from '../../Assets/js.png';
 import typescript from '../../Assets/typescript.png';
 import react from '../../Assets/structure.png';
 import Next from '../../Assets/free_icon_1.svg';
+import scss from '../../Assets/sass.png';
+import tailwind from '../../Assets/tailwind-css.png';
 
 import './Stylles.scss';
 import { Usados } from '../../Components/MaisUsados';
@@ -44,6 +46,16 @@ export function Tecnologias() {
             <section>
               <p>Css</p>
                 <img src={css} alt="Css-icon" id='css'/>
+              
+            </section>
+            <section>
+              <p>Scss</p>
+                <img src={scss} alt="Css-icon" id='css'/>
+              
+            </section>
+            <section>
+              <p>tailwind</p>
+                <img src={tailwind} alt="Css-icon" id='css'/>
               
             </section>
             <section>
