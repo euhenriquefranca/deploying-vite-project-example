@@ -13,7 +13,7 @@ function App() {
       <div style={{position: 'absolute'}}>
         <Music />
       </div>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Rotas/>
       </BrowserRouter>
     </div>
