@@ -24,7 +24,7 @@ export function Home() {
             <img src={Logo} alt="" />
           </Link>
           <Link to='/Home/Contato'>
-            <BotaoLink text={'CONTATO'} posição={'horisontal-tb'} height={'48px'} width={'150px'} />
+            <BotaoLink text={'CONTATO'} posição={'horizontal-tb'} height={'48px'} width={'150px'} />
           </Link>
           
 
@@ -63,11 +63,11 @@ export function Home() {
 
         <footer className="Footer">
           <Link to={'/Home/Sobre'}>
-            <BotaoLink text={'SOBRE'} posição={'horisontal-tb'} height={'48px'} width={'150px'} />
+            <BotaoLink text={'SOBRE'} posição={'horizontal-tb'} height={'48px'} width={'150px'} />
           </Link>
           
           <Link to={'Project'}>
-            <BotaoLink text={'PROJETOS'} posição={'horisontal-tb'} height={'48px'} width={'150px'} />
+            <BotaoLink text={'PROJETOS'} posição={'horizontal-tb'} height={'48px'} width={'150px'} />
           </Link>
           
         </footer>

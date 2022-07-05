@@ -2,7 +2,7 @@ import './Stylles.scss';
 
 interface lessonProps {
   text: string;
-  posição: 'vertical-lr' | 'vertical-rl' | 'horisontal-tb';
+  posição: 'vertical-lr' | 'vertical-rl' | 'horizontal-tb';
   height: '150px' | '48px';
   width: '150px' | '48px';
 }
