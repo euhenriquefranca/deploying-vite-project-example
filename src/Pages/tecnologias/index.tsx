@@ -10,6 +10,7 @@ import react from '../../Assets/structure.png';
 import Next from '../../Assets/free_icon_1.svg';
 import scss from '../../Assets/sass.png';
 import tailwind from '../../Assets/tailwind-css.png';
+import { Player, Audio, Controls, PlaybackControl } from '@vime/react';
 
 import './Stylles.scss';
 import { Usados } from '../../Components/MaisUsados';

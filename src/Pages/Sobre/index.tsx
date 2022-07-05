@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { CaretCircleLeft } from 'phosphor-react';
 import Isaac from '../../Assets/Isaac.png';
 import logo from '../../Assets/logo.png';
+import { Player, Audio, Controls, PlaybackControl } from '@vime/react';
 
 export function Sobre() {
 return(
@@ -15,7 +16,7 @@ return(
     <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
     </Link>
 
-    <Link to='Home/contato'>
+    <Link to='/Home/contato'>
     <img src={Isaac} alt="Logo-Isaac" />
     </Link>
 

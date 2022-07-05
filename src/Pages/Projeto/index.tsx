@@ -6,6 +6,7 @@ import Isaac from '../../Assets/Isaac.png'
 import logo from '../../Assets/logo.png'
 import { CaretCircleLeft } from 'phosphor-react';
 import { Link } from 'react-router-dom';
+import { Player, Audio, Controls, PlaybackControl } from '@vime/react';
 
 type Repository = {
   name: string;
@@ -33,7 +34,7 @@ export function Project() {
          <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
         </Link>
         
-        <Link to='Home/contato'>
+        <Link to='/Home/contato'>
           <img src={Isaac} alt="Logo-Isaac" />
         </Link>
         

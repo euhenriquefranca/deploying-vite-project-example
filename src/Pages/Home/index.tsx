@@ -3,6 +3,7 @@ import Logo from '../../Assets/logo.png';
 import './Stylles.scss';
 import { Link } from 'react-router-dom';
 import { DiscordLogo, GithubLogo, InstagramLogo, LinkedinLogo, WhatsappLogo } from 'phosphor-react'
+import { Player, Audio, Controls, PlaybackControl } from '@vime/react';
 
 
 export function Music() {

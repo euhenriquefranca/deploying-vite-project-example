@@ -2,6 +2,7 @@ import './Stylle.scss';
 import { Link } from 'react-router-dom';
 import { CaretCircleLeft, Envelope, Phone } from 'phosphor-react';
 import logo from '../../Assets/logo.png';
+import { Player, Audio, Controls, PlaybackControl } from '@vime/react';
 
 
 export function Contato() {
