@@ -2,7 +2,7 @@
   "name": "portifolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://IsaacMoretao.github.io/Portifolio-Avamcado",
+  "homepage": "https://IsaacMoretao.github.io/portifolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
